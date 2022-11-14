@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo{
+            width: 1.5in;
+        }
+        .topbar{
+            margin-left: 4in;
+            margin-top: px;
+        }
+        .list{
+            padding: 10px;
+        }
+        .your{
+            margin-top: -75px;
+            border: 1px solid black;
+            padding: 8px;
+            width: 100px;
+            margin-left: 9in;
+            background-color: #a389cc;
+            border-radius: 16px;
+            text-align: center;
+        }
+        .land{
+            width: 500px;
+            margin-left: 5in;
+            margin-top: 1in;
+        }
+        .main{
+            margin-top: -4.9in;
+            margin-left: 1in;
+            font-size: 80px;
+            text-align: left;
+        }
+        .work{
+            font-size: 80px;
+            margin-left: 1in;
+            margin-top: -70px;
+        }
+        .para{
+            margin-left: 100px;
+            margin-top: -9px;
+        }
+       .account{
+        border: 1px solid black;
+        padding: 10px;
+        width: 100px;
+        text-align: center;
+        border-radius: 18px;
+        background-color: blue;
+        margin-left: 100px;
+        
+       }
+       .arrow{
+        margin-top: -10in;
+        margin-left: 3in;
+        width: 45px;
+       }
+       .tick{
+        margin-left: -2.5in;
+        margin-top: 1in;
+       }
+       .pink{
+        margin-left: 2in;
+       }
+       .orange{
+        margin-left: -0.4in;
+        margin-top: 0.5in;
+        width: auto;
+        margin-right: 1in;
+       }
+       .container{
+    display: flex;
+    margin:25px;
+}
+
+.card{
+    background-color: bisque;
+    width: 60%;
+    border-radius: 10px;
+    margin:10px;
+    display:flex;
+}
+
+.blue{
+    display:none;
+}
+
+.card:hover .blue{
+    display: inline;
+
+}
+.card:hover .gray{
+    display: none;
+
+}
+    </style>
+</head>
+<img src="stunning-logo.png" class="logo">
+<div class="topbar">
+    <span class="list">Home</span>
+    <span class="list">About</span>
+    <span class="list">Blog</span>
+    <span class="list">Jobs</span>
+   </div>
+   <div class="your">
+   <span>your account</span>
+   </div>
+   <img src="landing-section-image.png" class="land">
+   <h1 class="main">Stunning </h1>
+   <h1 class="work">Workplace</h1>
+   <p class="para">With Stunning, remote teams can organise projects,</p>
+   <p class="para">manage shifting priorities, and get work done.</p>
+   <div class="account">
+    <span>New account</span>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="tick-img">
+                <img src="tick-gray.png" class="gray">
+                <img src="tick-blue.png" class="blue">
+            </div>
+            <h1 class="card-title">DMM DESIGN</h1>
+            <img src="user-pink.png">
+            <h1>20 dec</h1>
+            
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="tick-img">
+                <img src="tick-gray.png" class="gray">
+                <img src="tick-blue.png" class="blue">
+            </div>
+            <h1 class="card-title">blurr animation</h1>
+            <img src="user-orange.png">
+            <h1>20 Dec</h1>
+        </div>
+        
+    </div><div class="container">
+        <div class="card">
+            <div class="tick-img">
+                <img src="tick-gray.png" class="gray">
+                <img src="tick-blue.png" class="blue">
+            </div>
+            <h1 class="card-title">illustration</h1>
+            <img src="user-blue.png">
+            <h1>20 Dec</h1>
+            
+        </div>
+        
+    </div><div class="container">
+        <div class="card">
+            <div class="tick-img">
+                <img src="tick-gray.png" class="gray">
+                <img src="tick-blue.png" class="blue">
+            </div>
+            <h1 class="card-title">Refunds</h1>
+            <img src="user-red.png">
+            <h1>20 Dec</h1>
+            
+        </div>
+        
+    </div>
+
+   </html>
